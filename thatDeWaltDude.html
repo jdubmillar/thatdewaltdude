@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>That DeWalt Dude | My Go-To DeWalt Drill</title>
+  <meta
+    name="description"
+    content="A simple gear page from That DeWalt Dude featuring a DeWalt tool I actually use for home renos, workshop projects, and DIY jobs."
+  />
+  <style>
+    :root {
+      --bg: #111111;
+      --panel: #1b1b1b;
+      --text: #f4f4f4;
+      --muted: #b8b8b8;
+      --accent: #f7c600;
+      --accent-dark: #d7ab00;
+      --border: #2b2b2b;
+      --max-width: 760px;
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0d0d0d 0%, #151515 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 28px 18px 60px;
+    }
+
+    .brand {
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #111;
+      background: var(--accent);
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .subhead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .card {
+      margin-top: 22px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.6rem;
+      line-height: 1.2;
+    }
+
+    .intro {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0 0 22px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 14px 18px;
+      border-radius: 12px;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #111;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid #3a3a3a;
+    }
+
+    .btn-secondary:hover {
+      border-color: #666;
+      transform: translateY(-1px);
+    }
+
+    .note,
+    .disclosure,
+    .footer {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .disclosure {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .tool-image {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      margin: 0 0 18px;
+      display: block;
+      background: #0f0f0f;
+    }
+
+    @media (max-width: 560px) {
+      .hero {
+        padding: 22px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">That DeWalt Dude</div>
+
+    <section class="hero">
+      <h1>My Go-To DeWalt Drill</h1>
+      <p class="subhead">
+        A simple first pick for homeowners, DIY jobs, and real home renos.
+      </p>
+
+      <article class="card">
+        <!-- Optional image: replace the src below with your own hosted image -->
+        <!--
+        <img
+          class="tool-image"
+          src="images/dewalt-drill.jpg"
+          alt="DeWalt drill"
+        />
+        -->
+
+        <p class="eyebrow">First featured pick</p>
+        <h2>DeWalt XR Drill</h2>
+        <p class="intro">
+          This is the kind of tool I keep reaching for because it covers a lot of ground.
+          Good power, practical for everyday reno work, and a solid fit for homeowners
+          who want one dependable drill instead of a pile of junk.
+        </p>
+
+        <ul>
+          <li>Good all-around choice for general home projects</li>
+          <li>Strong fit for repairs, installs, basic renos, and workshop use</li>
+          <li>A better “real use” buy than chasing the cheapest option</li>
+        </ul>
+
+        <div class="cta-row">
+          <a
+            class="btn btn-primary"
+            href="https://YOUR-AFFILIATE-LINK-HERE"
+            target="_blank"
+            rel="noopener sponsored nofollow"
+          >
+            View This Drill
+          </a>
+
+          <a
+            class="btn btn-secondary"
+            href="https://instagram.com/thatdewaltdude"
+            target="_blank"
+            rel="noopener"
+          >
+            See More on Instagram
+          </a>
+        </div>
+
+        <p class="note" style="margin-top:16px;">
+          I only want this page doing one thing: helping you get to the exact tool fast.
+        </p>
+
+        <p class="disclosure">
+          Disclosure: Some links on this page may be affiliate links. If you buy through them,
+          I may earn a small commission at no extra cost to you.
+        </p>
+      </article>
+    </section>
+
+    <p class="footer">
+      © 2026 That DeWalt Dude, a Bright Factor project
+    </p>
+  </main>
+</body>
+</html>
